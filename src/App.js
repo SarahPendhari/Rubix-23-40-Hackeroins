@@ -1,5 +1,6 @@
 import React from 'react';
 import "./App.css";
+import Chat from './chat';
 import Sidebar from './sidebar';
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       {/* sidebar */}
       <Sidebar />
       {/* chat */}
+      <Chat />
     </div>
   );
 }
