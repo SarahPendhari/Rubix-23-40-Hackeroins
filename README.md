@@ -1,30 +1,86 @@
-# PROBLEM STATEMENT 02
+## Get started with the Discord Clone App
 
-THE STARTUP INDUSTRY IS CURRENTLY WORTH BILLIONS OF
-DOLLARS. MANY PEOPLE BUILT THEIR COMPANIES FROM
-SCRATCH WITHOUT ANY PRIOR KNOWLEDGE OR EXPERIENCE
-IN THE BUSINESS INDUSTRY. BUT, DUE TO THE RISE OF SOCIAL
-MEDIA PLATFORMS, IT HAS BECOME CONVENIENT FOR PEOPLE
-TO CONNECT TO EACH OTHER FROM DIFFERENT PARTS OF THE
-WORLD AND SHARE IDEAS. YET, THERE IS NO ONLINE FORUM
-AVAILABLE FOR MENTORING AND EXCHANGING IDEAS AND
-INFORMATION WITH UP-AND-COMING STARTUPS. THIS HAS
-CREATED A DEMAND FOR SOCIAL MEDIA PLATFORMS WHICH
-PROVIDE SUCH SERVICES.
-THEREFORE, DEVELOP A WEB/APP FOR SUCH PEOPLE WHERE
-THEY CAN COMMUNICATE WITH EACH OTHER AND GET
-GUIDANCE FOR THEIR DOUBTS.
+To get started with the app, create a .env file on the root folder to declare our so-called environtment variables by typing down the following:
+`REACT_APP_FIREBASE_API_KEY = your-key-here
+REACT_APP_FIREBASE_AUTH_DOMAIN = your-auth-domain-here
+REACT_APP_FIREBASE_PROJECT_ID = your-project-id-here
+REACT_APP_FIREBASE_STORAGE_BUCKET = your-storage-bucket-here
+REACT_APP_FIREBASE_SENDER_ID = your-sender-id-here
+REACT_APP_FIREBASE_APP_ID = your-app-id-here`
 
+you can then replace the invalid values with your own Firebase Config.
 
-1.THIS WEB/APP WILL HELP PEOPLE OF THE SAME IDEAS AND
-INTERESTS TO COME TOGETHER AND COLLABORATE TO
-FORM A COMMUNITY.
-2.THE USER CAN JOIN SUCH COMMUNITIES AND
-UNDERSTAND THE BASICS OF BUILDING A STARTUP.
-3.THE WEB/APP SHOULD ALSO PROVIDE SERVICES FOR USERS
-TO COMMUNICATE WITH EACH OTHER VIA TEXT MESSAGES
-OR VIDEO CHAT.
-4.IT SHOULD ALSO NOTIFY THE USERS ABOUT THE RECENT
-UPDATES ABOUT THEIR COMMUNITIES.
-5.IT CAN ALSO HAVE A VIDEO CONFERENCE SERVICE FOR
-HOSTING WEBINARS.
+## Firebase Auth with Google
+
+After setting up the environment variables, you need to setup an authentication on Firebase console, then you can go ahead and enable the Google authentication provider.
+
+## [Guide] Where do I get the Firebase Config like above?
+
+You can create a new project on Firebase console and you should be fine by just following the tutorial there.
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm build`
+
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `yarn npm`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `yarn build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
