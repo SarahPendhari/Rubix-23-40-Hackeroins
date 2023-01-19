@@ -46,7 +46,7 @@ function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebar__top">
-        <h3>Discord Clone</h3>
+        <h3>Entrepreneurs' Lair</h3>
         <ExpandMore className="sidebar__expandMoreIcon" />
       </div>
 
