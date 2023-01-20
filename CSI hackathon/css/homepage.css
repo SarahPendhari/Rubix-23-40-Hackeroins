@@ -28,7 +28,7 @@
 
 #navbar::before {
   content: "";
-  background-color: #13547a;
+  background-color:#30353b;
   opacity: 0.6;
   position: absolute;
   top: 0px;
@@ -58,7 +58,7 @@
 .img img{
     width: 100%;
     height: auto;
-    border: 1px solid #13547a;
+    border: 1px solid #30353b;
 
 }
 .head{
@@ -77,7 +77,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #6bafa7;
+    background-color: #30353b;
 }
 .mainexp h1{
     width: 130%;
