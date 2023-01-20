@@ -594,3 +594,135 @@ section{
         padding-left: 4rem!important;
     }
 }
+
+.health {
+
+    width:25%;
+    border-radius: 100%;
+    float:left;
+    margin-right: 30px;
+  
+  }
+  
+  .tech {
+    width:25%;
+    border-radius: 100%;
+    float:right;
+    margin-left: 30px;
+  }
+  
+  .education {
+    
+    width:25%;
+    border-radius: 100%;
+    float:left;
+    margin-right: 30px;
+  }
+  
+  .travel {
+    width:25%;
+    border-radius: 100%;
+    float:right;
+    margin-left: 30px;
+  }
+  
+  .real{
+    
+    width:25%;
+    border-radius: 100%;
+    float:left;
+    margin-right: 30px;
+  }
+  .financial {
+    width:25%;
+    border-radius: 100%;
+    float:right;
+    margin-left: 30px;
+  }
+  .retail {
+    
+    width:25%;
+    border-radius: 100%;
+    float:left;
+    margin-right: 30px;
+  }
+  .btn1{
+    width:50%;
+    margin:200px auto 100px auto;  
+    text-align: left;
+  
+
+  }
+  .btn2{
+    width:50%;
+    margin:100px auto 300px auto;  
+    text-align: left;
+    margin-bottom: 100px;
+  }
+  .btn3{
+    width:50%;
+    margin:100px auto 300px auto;  
+    text-align: left;
+    margin-bottom: 100px;
+
+  }
+  .btn4{
+    width:50%;
+    margin:100px auto 300px auto;  
+    text-align: left;
+    margin-bottom: 100px;
+
+  }
+  .btn5{
+    width:50%;
+    margin:100px auto 300px auto;  
+    text-align: left;
+    margin-bottom: 100px;
+
+  }
+  .btn6{
+    width:50%;
+    margin:100px auto 300px auto;  
+    text-align: left;
+    margin-bottom: 100px;
+
+  }
+  .btn7{
+    width:50%;
+    margin:100px auto 300px auto;  
+    text-align: left;
+    margin-bottom: 100px;
+
+  }
+  .btn-desc{
+    font-size: 1.5rem;
+
+  }
+  .btn_69 {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 1rem;
+    font-family: serif;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    border-radius: 15px;
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    display:block;
+    margin:0 30px 0 0;
+  }
+  hr{
+    width:80%;
+    border-top:1px solid black;
+    
+  }
+  .domains{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
